@@ -20,6 +20,7 @@ end
 
 def return_string_array(array)
   string_array = []
+  x = 1
   array.each {|x| string_array.push(array[x].to_s)}
   string_array
 end
