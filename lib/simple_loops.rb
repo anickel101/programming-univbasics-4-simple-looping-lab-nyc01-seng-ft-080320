@@ -19,8 +19,7 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  count = 0
   string_array = []
-  array.each {|x| string_array.push(array[count])}
+  array.each {|x| string_array.push(array[x].to_s)}
   string_array
 end
