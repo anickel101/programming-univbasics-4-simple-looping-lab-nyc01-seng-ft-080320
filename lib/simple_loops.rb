@@ -6,7 +6,11 @@ def loop_message_five_times(message)
   end
 end
 
-def loop_message_n_times
+def loop_message_n_times(message, int)
+  counter = 0
+  while counter < int do
+    puts message
+    counter+=1
 end
 
 def output_array
