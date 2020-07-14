@@ -24,10 +24,3 @@ def return_string_array(array)
   array.each {|x| string_array.push(array[count])}
   string_array
 end
-
-
-  while count < array.length do
-    array[count].to_s
-    count+=1
-  end
-  string_array
