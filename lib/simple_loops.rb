@@ -20,7 +20,10 @@ end
 
 def return_string_array(array)
   string_array = []
-  x = 1
-  array.each {|x| string_array.push(array[x].to_s)}
+  count = 0
+  while count < array.length do
+    string_array.push(array[count].to_s)
+    count+=1
+  end
   string_array
 end
