@@ -20,5 +20,5 @@ end
 
 def return_string_array(array)
   string_array = []
-  array.each {|x| string_array.push(x)}
+  array.each {|x| string_array.push(x.to_s)}
 end
