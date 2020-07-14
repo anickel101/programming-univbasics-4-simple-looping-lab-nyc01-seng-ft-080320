@@ -20,6 +20,6 @@ end
 
 def return_string_array(array)
   string_array = []
-  array.each {|x| string_array.push(array[x].to_s)}
+  array.each {|x| string_array.unshift(array[x].to_s)}
   string_array
 end
